@@ -2,24 +2,24 @@
 layout: splash
 ---
 
-<div style="text-align: center;">
-  <h1>Inwhan Chun</h1>
-  <p>
-    <a href="mailto:inwhanc@andrew.cmu.edu" title="Email"><i class="fa-solid fa-envelope fa-xl"></i></a> &nbsp;
-    <a href="https://scholar.google.com/citations?user=81T2YXQAAAAJ" title="Google Scholar"><i class="fa-brands fa-google-scholar fa-xl"></i></a> &nbsp;
-    <a href="https://github.com/inwchun" title="GitHub"><i class="fa-brands fa-github fa-xl"></i></a> &nbsp;
-    <a href="https://www.linkedin.com/in/inwhan-chun-b94505288/" title="LinkedIn"><i class="fa-brands fa-linkedin fa-xl"></i></a>
-  </p>
+<div class="profile">
+  <img class="profile__photo" src="/assets/images/image.png" alt="Inwhan Chun">
+  <div class="profile__text">
+    <h1>Inwhan Chun</h1>
+    <p>
+      I am a PhD student at Carnegie Mellon University, advised by <a href="https://www.cs.cmu.edu/~rpaccagn/">Riccardo Paccagnella</a>.
+      I work at the intersection of computer architecture, systems, and security.
+      Specifically, my research uncovers software vulnerabilities rooted in hardware and develops principled yet practical mitigations.
+    </p>
+    <p>
+      Contact: <a href="mailto:inwhanc@andrew.cmu.edu">inwhanc@andrew.cmu.edu</a>
+    </p>
+  </div>
 </div>
-
-## About
-I am a PhD student at Carnegie Mellon University, advised by [Riccardo Paccagnella](https://www.cs.cmu.edu/~rpaccagn/). 
-I am interested in computer systems and security, with a focus on computer architecture.
-My research uncovers software vulnerabilities rooted in hardware and designs practical mitigations.
 
 
 ## Publications
-<span style="font-size: 0.85em;">\*: equal contribution</span>
+<span style="font-size: 0.85em;">\* denotes equal contribution</span>
 
 **Goldilocks and the Three P-States: Mitigating Hertzbleed with Formal Leakage Guarantees**<br>
 Inwhan Chun\*, Christine Guo\*, Riccardo Paccagnella<br>

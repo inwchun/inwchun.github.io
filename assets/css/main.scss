@@ -44,3 +44,29 @@ $doc-font-size: 15px;
   color: #E00000;
 }
 
+// profile header: photo on the left, name / intro / links on the right
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  margin-bottom: 2em;
+
+  // stack vertically on narrow screens (phones)
+  @media (max-width: 600px) {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.profile__photo {
+  flex-shrink: 0;
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profile__text h1 {
+  margin-top: 0;
+}
+
